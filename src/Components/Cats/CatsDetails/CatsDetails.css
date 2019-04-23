@@ -1,0 +1,31 @@
+.catDetail{
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 30%;
+    margin: 0 auto;
+}
+.catDetail h1{
+    font-size: 25px;
+    display: block;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 900;
+}
+.catDetail span{
+    display: block;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.catDetail span:first-of-type{
+    border-top: 1px solid black;
+}
+.catDetail span:last-of-type{
+    border-bottom-style: none;
+    border-left: none;
+    border-right: none;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import CatsList from './CatsList/CatsList';
-import CatsDetails from './CatsDetails';
+import CatsDetails from './CatsDetails/CatsDetails';
 import CatsDelete from './CatsDelete';
 import CatsCreate from './CatsCreate';
 import CatsUpdate from './CatsUpdate';

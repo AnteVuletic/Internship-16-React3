@@ -12,8 +12,8 @@ class App extends Component {
         <BrowserRouter>
           <Switch>
             <Route exact path="/" render={props => <LandingPage {...props}/>} />
-            <Route exact path="/dogs" render={props => <Dogs {...props}/>} />
-            <Route exact path="/cats" render={props => <Cats {...props}/>} />
+            <Route path="/dogs" render={props => <Dogs {...props}/>} />
+            <Route path="/cats" render={props => <Cats {...props}/>} />
             <Route exact path="/404" render={props => <NotFound {...props}/>} />
             <Redirect to='/404' />
           </Switch>

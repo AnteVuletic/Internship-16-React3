@@ -1,0 +1,21 @@
+.navigation > a {
+    display: inline-block;
+    width: 20%;
+    height: 10%;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+    border-radius: 15px;
+    padding: 15px;
+    border: 1px solid black;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+}
+.navigation > a:first-of-type{
+    background-color: #00baba;
+}
+.navigation > a:last-of-type{
+    background-color: #ba00FF;
+}

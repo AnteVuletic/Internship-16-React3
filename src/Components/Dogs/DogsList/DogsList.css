@@ -1,15 +1,15 @@
-.catsList{
+.dogsList{
     display: flex;
     width: 50%;
     margin: 0 auto;
     flex-direction: column;
     text-align: center;
 }
-.catsList > section{
+.dogsList > section{
     display: block;
     border: 1px solid black;
 }
-.catsList a{
+.dogsList a{
     border: 1px solid black;
     display: block;
     padding: 10px;

@@ -20,7 +20,7 @@ class CatsList extends React.Component{
     render(){
         const { cats } = this.state;
         return(
-            <main>
+            <main className="catsList">
                 <h1>All cats</h1>
                 <section>
                     {cats.map(cat =>(
