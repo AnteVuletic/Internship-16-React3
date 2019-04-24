@@ -1,0 +1,39 @@
+.dogCreate{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.dogCreate > form > input{
+    display: block;
+    font-family: sans-serif;
+    color: #00baba;
+    font-size: 20px;
+}
+.dogCreate > form > label{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.dogCreate > form > div{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.dogCreate > form > div > input , button{
+    padding: 5 15px;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+}
+.dogCreate > form > div > input{
+    background-color: #ba00ba;
+}
+button{
+    background-color: #baba00;
+}

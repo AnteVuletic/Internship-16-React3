@@ -24,8 +24,23 @@
 .catDetail span:first-of-type{
     border-top: 1px solid black;
 }
-.catDetail span:last-of-type{
-    border-bottom-style: none;
-    border-left: none;
-    border-right: none;
+.catDetail > div{
+    display: flex;
+    justify-content: space-around;
+}
+.catDetail > div a, .catDetail > div button{
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 0.5px solid black;
+    margin: 5px;
+}
+.catDetail > div a{
+    background-color: #00ba01;
+}
+.catDetail > div button{
+    background-color: #ab0000;
 }

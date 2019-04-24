@@ -22,3 +22,8 @@ export const putCat = cat =>{
         }
     }).then(response => response.json());
 }
+export const deleteCat = id =>{
+    return fetch(`http://localhost:3000/cats/${id}`,{
+        method: "DELETE"
+    }).then(response => response.json());
+}

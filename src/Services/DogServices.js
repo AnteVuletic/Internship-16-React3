@@ -22,3 +22,8 @@ export const putDog = dog =>{
         }
     }).then(response => response.json());
 }
+export const deleteDog = id =>{
+    return fetch(`http://localhost:3000/dogs/${id}`,{
+        method: "DELETE"
+    }).then(response => response.json());
+}

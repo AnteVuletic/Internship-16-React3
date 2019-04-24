@@ -21,7 +21,10 @@ class CatsList extends React.Component{
         const { cats } = this.state;
         return(
             <main className="catsList">
-                <h1>All cats</h1>
+                <div>
+                    <h1>All cats</h1>
+                    <Link to={`/cats/create/`}>Create cat</Link>
+                </div>
                 <section>
                     {cats.map(cat =>(
                         <div key={cat.id}><Link to={`/cats/${cat.id}`}>{cat.name} | {cat.breed}</Link></div>

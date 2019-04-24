@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { fetchDog } from '../../../Services/DogServices';
+import { fetchDog,deleteDog } from '../../../Services/DogServices';
 import './DogsDetails.css';
 
 class DogsDetails extends React.Component{
@@ -18,6 +18,13 @@ class DogsDetails extends React.Component{
             });
         });
     }
+    handleDelete = () =>{
+        const { dog } = this.state;
+        const { history } = this.props;
+        deleteDog(dog.id).then(_ => {
+            history.goBack();
+        });
+    }
     render(){
         const { dog } = this.state;
         return (
@@ -26,6 +33,10 @@ class DogsDetails extends React.Component{
                 <span>ID: {dog.id}</span>
                 <span>Breed: {dog.breed}</span>
                 <span>Age: {dog.age}</span>
+                <div>
+                    <Link to={`/dogs/update/${dog.id}`}>Edit</Link>
+                    <button onClick={this.handleDelete}>Delete</button>
+                </div>
             </article>
         );
     }

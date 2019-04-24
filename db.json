@@ -1,16 +1,72 @@
 {
-    "dogs": [
-        { "id": 1,"name":"Georgie","breed":"German Shepard","age":6},
-        { "id": 2,"name":"Robert","breed":"Boxer","age":3},
-        { "id": 3,"name":"Chris","breed":"Akita","age":5},
-        { "id": 4,"name":"Mr. Cuddles","breed":"Pug","age":9},
-        { "id": 5,"name":"Ginger","breed":"French Bulldog","age":2}
-    ],
-    "cats": [
-        { "id": 1,"name":"Daisy","breed":"Persian cat","age":6},
-        { "id": 2,"name":"Abbey","breed":"Maine Coon","age":3},
-        { "id": 3,"name":"Tony","breed":"Ragdoll","age":5},
-        { "id": 4,"name":"Mr. Cuddles","breed":"Donskoy","age":9},
-        { "id": 5,"name":"Cupcake","breed":"Sibirian Cat","age":2}
-    ]
+  "dogs": [
+    {
+      "id": 1,
+      "name": "Georgie",
+      "breed": "German Shepard",
+      "age": 6
+    },
+    {
+      "id": 3,
+      "name": "Chris",
+      "breed": "Akita",
+      "age": 5
+    },
+    {
+      "id": 4,
+      "name": "Mr. Cuddles",
+      "breed": "Pug",
+      "age": 9
+    },
+    {
+      "id": 5,
+      "name": "Ginger",
+      "breed": "French Bulldog",
+      "age": 2
+    },
+    {
+      "name": "Mrvica",
+      "breed": "Pitbull",
+      "age": "11",
+      "id": 6
+    }
+  ],
+  "cats": [
+    {
+      "id": 1,
+      "name": "Daisy",
+      "breed": "Persian cat",
+      "age": 6
+    },
+    {
+      "id": 2,
+      "name": "Abbey",
+      "breed": "Maine Coon",
+      "age": 3
+    },
+    {
+      "id": 3,
+      "name": "Tony",
+      "breed": "Ragdoll",
+      "age": 5
+    },
+    {
+      "id": 4,
+      "name": "Mr. Cuddles",
+      "breed": "Donskoy",
+      "age": 9
+    },
+    {
+      "id": 5,
+      "name": "Cupcake",
+      "breed": "Sibirian Cat",
+      "age": 2
+    },
+    {
+      "name": "Lion",
+      "breed": "Persian Cat",
+      "age": "4",
+      "id": 8
+    }
+  ]
 }

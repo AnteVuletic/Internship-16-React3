@@ -14,3 +14,17 @@
     display: block;
     padding: 10px;
 }
+.dogsList > div{
+    display: flex;
+    justify-content: space-around;
+}
+.dogsList > div a{
+    background-color: #00baba;
+    padding: 5px 15px;
+    border-radius: 3px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    height: fit-content;
+    align-self: center;
+}

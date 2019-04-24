@@ -21,7 +21,10 @@ class DogsList extends React.Component{
         const { dogs } = this.state;
         return(
             <main className="dogsList">
-                <h1>All Dogs</h1>
+                <div>
+                    <h1>All dogs</h1>
+                    <Link to={`/dogs/create/`}>Create dog</Link>
+                </div>
                 <section>
                     {dogs.map(dog =>(
                         <div key={dog.id}><Link to={`/dogs/${dog.id}`}>{dog.name} | {dog.breed}</Link></div>
