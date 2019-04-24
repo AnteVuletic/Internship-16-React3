@@ -9,6 +9,7 @@
     border-bottom-right-radius: 20px;
 }
 .catCreate > form > input{
+    padding: 5px;
     display: block;
     font-family: sans-serif;
     color: #00baba;

@@ -22,7 +22,7 @@ class CatsDetails extends React.Component{
         const { cat } = this.state;
         const { history } = this.props;
         deleteCat(cat.id).then(_ => {
-            history.goBack();
+            history.push('/cats');
         });
     }
     render(){

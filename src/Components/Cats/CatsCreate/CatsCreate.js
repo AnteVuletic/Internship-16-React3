@@ -32,7 +32,7 @@ class CatsCreate extends React.Component {
     }
     handleCancel = () =>{
         const { history } = this.props;
-        history.goBack();
+        history.push('/cats');
     }
     render() {
         const { newCat } = this.state;

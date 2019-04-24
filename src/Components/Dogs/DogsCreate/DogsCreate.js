@@ -32,7 +32,7 @@ class DogsCreate extends React.Component {
     }
     handleCancel = () =>{
         const { history } = this.props;
-        history.goBack();
+        history.push('/dogs');
     }
     render() {
         const { newDog } = this.state;

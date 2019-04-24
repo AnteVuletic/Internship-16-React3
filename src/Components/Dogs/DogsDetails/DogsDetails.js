@@ -22,7 +22,7 @@ class DogsDetails extends React.Component{
         const { dog } = this.state;
         const { history } = this.props;
         deleteDog(dog.id).then(_ => {
-            history.goBack();
+            history.push('/dogs');
         });
     }
     render(){

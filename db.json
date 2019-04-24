@@ -8,7 +8,7 @@
     },
     {
       "id": 3,
-      "name": "Chris",
+      "name": "Chrisy",
       "breed": "Akita",
       "age": 5
     },
@@ -32,12 +32,6 @@
     }
   ],
   "cats": [
-    {
-      "id": 1,
-      "name": "Daisy",
-      "breed": "Persian cat",
-      "age": 6
-    },
     {
       "id": 2,
       "name": "Abbey",
