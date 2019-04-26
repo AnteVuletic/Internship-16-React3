@@ -12,7 +12,11 @@ class CatsDetails extends React.Component{
     }
     componentDidMount(){
         const { id } = this.props.match.params;
+        const { history } = this.props;
         fetchCat(id).then(payload =>{
+            let isFound = payload.id ? true : false;
+            if(!isFound)
+                return history.push('/404');
             this.setState({
                 cat : payload
             });

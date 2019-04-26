@@ -12,7 +12,12 @@ class DogsDetails extends React.Component{
     }
     componentDidMount(){
         const { id } = this.props.match.params;
-        fetchDog(id).then(payload =>{
+        const { history } = this.props;
+        fetchDog(id)
+        .then(payload =>{
+            let isFound = payload.id ? true : false;
+            if(!isFound)
+                return history.push('/404');
             this.setState({
                 dog : payload
             });

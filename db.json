@@ -29,6 +29,12 @@
       "breed": "Pitbull",
       "age": "11",
       "id": 6
+    },
+    {
+      "name": "Matija",
+      "breed": "Pitbull",
+      "age": "5",
+      "id": 7
     }
   ],
   "cats": [
